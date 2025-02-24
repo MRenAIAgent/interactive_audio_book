@@ -1,0 +1,15 @@
+README.md
+setup.py
+voice_agent/__init__.py
+voice_agent/gpt_test.py
+voice_agent/local.py
+voice_agent/server.py
+voice_agent/server_test.py
+voice_agent/voice_agent.py
+voice_agent.egg-info/PKG-INFO
+voice_agent.egg-info/SOURCES.txt
+voice_agent.egg-info/dependency_links.txt
+voice_agent.egg-info/top_level.txt
+voice_agent/actions/__init__.py
+voice_agent/actions/load_book.py
+voice_agent/actions/serpy_search.py

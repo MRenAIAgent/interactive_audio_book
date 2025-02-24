@@ -1,0 +1,8 @@
+vocode
+numpy
+scipy
+webrtcvad
+python-dotenv
+pydantic-settings
+PyPDF2
+speexdsp-python 
