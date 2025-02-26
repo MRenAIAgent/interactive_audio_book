@@ -1,4 +1,3 @@
-
 import os
 from typing import Optional, Type
 import PyPDF2
@@ -10,6 +9,7 @@ from vocode.streaming.models.actions import ActionConfig, ActionInput, ActionOut
 
 
 class LoadBookVocodeActionConfig(ActionConfig, type="action_load_book"):  # type: ignore
+    """Configuration for the LoadBook action"""
     pass
 
 
@@ -19,7 +19,7 @@ class LoadBookParameters(BaseModel):
 
 class LoadBookResponse(BaseModel):
     success: bool
-    book_text: str = ""
+    message: str = ""
 
 
 class LoadBookAction(

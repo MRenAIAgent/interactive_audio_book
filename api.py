@@ -7,7 +7,7 @@ import wave
 import io
 import numpy as np
 
-from voice_agent.voice_agent import VoiceAgent
+from voice_agent.voice_agent_local import VoiceAgent
 from vocode.streaming.models.audio import AudioEncoding
 from vocode.streaming.models.message import MessageType
 from vocode.streaming.utils import create_queue as create_audio_stream
