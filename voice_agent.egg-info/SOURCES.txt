@@ -1,11 +1,14 @@
 README.md
 setup.py
 voice_agent/__init__.py
+voice_agent/audio_processor.py
 voice_agent/gpt_test.py
 voice_agent/local.py
 voice_agent/server.py
 voice_agent/server_test.py
-voice_agent/voice_agent.py
+voice_agent/voice_agent_local.py
+voice_agent/voice_agent_websocket.py
+voice_agent/websocket_client.py
 voice_agent.egg-info/PKG-INFO
 voice_agent.egg-info/SOURCES.txt
 voice_agent.egg-info/dependency_links.txt

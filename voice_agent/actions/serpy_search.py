@@ -48,7 +48,7 @@ class SerperSearchAction(
             should_respond="always",
             is_interruptible=True,
         )
-        self.api_key = action_config.params.get("api_key", os.environ.get("SERPER_API_KEY", ""))
+        self.api_key = action_config.get("api_key", os.environ.get("SERPER_API_KEY", ""))
         if not self.api_key:
             raise ValueError("Serper API key is required")
 
